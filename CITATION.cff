@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Rodrigues"
+    given-names: "Anderson Costa"
+    orcid: "https://orcid.org/0009-0001-2084-2593"
+title: "Q-MSG: Biographical Irreducibility in Quantum Mechanics"
+version: 1.0.0
+date-released: 2025-11-17
+url: "https://github.com/AndersonCRodrigues/qmsg-biographical-irreducibility"
+repository-code: "https://github.com/AndersonCRodrigues/qmsg-biographical-irreducibility"
+keywords:
+  - quantum mechanics
+  - quantum foundations
+  - decoherence
+  - process tensor
+  - biographical information
+license: MIT
