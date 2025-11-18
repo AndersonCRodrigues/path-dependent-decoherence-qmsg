@@ -1,12 +1,12 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
+message: "If you use this software, please cite the accompanying paper as below."
 authors:
   - family-names: "Rodrigues"
     given-names: "Anderson Costa"
     orcid: "https://orcid.org/0009-0001-2084-2593"
 title: "Q-MSG: Biographical Irreducibility in Quantum Mechanics"
 version: 1.0.0
-date-released: 2025-11-17
+date-released: 2025-11-18
 url: "https://github.com/AndersonCRodrigues/qmsg-biographical-irreducibility"
 repository-code: "https://github.com/AndersonCRodrigues/qmsg-biographical-irreducibility"
 keywords:
@@ -16,3 +16,28 @@ keywords:
   - process tensor
   - biographical information
 license: MIT
+abstract: >-
+  I demonstrate that quantum systems implementing the same unitary
+  operation and sharing identical final states can nonetheless
+  exhibit measurably distinct behavior under environmental decoherence.
+  This arises when the underlying dynamical trajectories---the
+  "biographies" of the processes---differ geometrically in state space
+  even though the endpoints coincide. I construct explicit "quantum
+  twins" (UA=UB, ρA=ρB, KA≠KB) that, under decoherence, diverge
+  (ρ'A≠ρ'B). Through mathematical analysis, time-normalization,
+  multiple physical noise models, multi-qubit extensions, and
+  bootstrap statistics (z ≈ 21.65σ), I show that biographical
+  information is physically relevant and irreducible to
+  instantaneous state descriptions.
+
+
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Costa Rodrigues"
+    given-names: "Anderson"
+    orcid: "https://orcid.org/0009-0001-2084-2593"
+  title: "Biographical Irreducibility in Quantum Mechanics: Path Inequivalence Beyond State Equivalence"
+  journal: "arXiv preprint arXiv:XXXX.XXXXX"
+  year: 2025
+  url: "https://arxiv.org/abs/XXXX.XXXXX"
