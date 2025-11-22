@@ -6,7 +6,8 @@ authors:
     orcid: "https://orcid.org/0009-0001-2084-2593"
 title: "Q-MSG: Biographical Irreducibility in Quantum Mechanics"
 version: 1.0.0
-date-released: 2025-11-18
+doi: 10.5281/zenodo.17682581
+date-released: 2025-11-22
 url: "https://github.com/AndersonCRodrigues/qmsg-biographical-irreducibility"
 repository-code: "https://github.com/AndersonCRodrigues/qmsg-biographical-irreducibility"
 keywords:
@@ -30,14 +31,14 @@ abstract: >-
   information is physically relevant and irreducible to
   instantaneous state descriptions.
 
-
 preferred-citation:
-  type: article
+  type: preprint
   authors:
-  - family-names: "Costa Rodrigues"
-    given-names: "Anderson"
+  - family-names: "Rodrigues"
+    given-names: "Anderson Costa"
     orcid: "https://orcid.org/0009-0001-2084-2593"
+  doi: "10.5281/zenodo.17682581"
   title: "Biographical Irreducibility in Quantum Mechanics: Path Inequivalence Beyond State Equivalence"
-  journal: "arXiv preprint arXiv:XXXX.XXXXX"
+  publisher: "Zenodo"
   year: 2025
-  url: "https://arxiv.org/abs/XXXX.XXXXX"
+  url: "https://doi.org/10.5281/zenodo.17682581"
