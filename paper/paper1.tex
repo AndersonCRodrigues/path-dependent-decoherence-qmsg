@@ -20,10 +20,10 @@
 \date{\today}
 
 \begin{abstract}
-I demonstrate that quantum processes implementing identical unitary operations and sharing identical final states can exhibit measurably distinct behavior under environmental decoherence when their dynamical trajectories differ geometrically. I construct explicit ``quantum twins'' satisfying: (1) $U_A = U_B$, (2) $\rho_A = \rho_B$, (3) distinct trajectories $K_A \neq K_B$, yet (4) $\rho'_A \neq \rho'_B$ after decoherence. Through comprehensive validation including time-normalized evolution, multiple physical noise models, multi-qubit extensions, and bootstrap statistics (Frobenius-norm difference $\approx 0.244$, 95\% CI [0.217, 0.275]), I establish that biographical information is physically relevant and irreducible to instantaneous state descriptions. An experimental protocol for photonic implementation is provided. These results challenge state-completeness assumptions and suggest process-based ontologies reflect deeper physical structure than commonly appreciated.
+I demonstrate that quantum processes implementing identical unitary operations and sharing identical final states can exhibit measurably distinct behavior under environmental decoherence when their dynamical trajectories differ geometrically. I construct explicit ``quantum twins'' satisfying: (1) $U_A = U_B$, (2) $\rho_A = \rho_B$, (3) distinct trajectories $K_A \neq K_B$, yet (4) $\rho'_A \neq \rho'_B$ after decoherence. Through comprehensive validation including time-normalized evolution, multiple physical noise models, multi-qubit extensions, and bootstrap statistics (Frobenius-norm difference $\approx 0.244$, 95\% CI [0.217, 0.275]), These results indicate that biographical information exhibits measurable physical consequences that go beyond instantaneous state descriptions. An experimental protocol for photonic implementation is provided. These results challenge state-completeness assumptions and suggest process-based ontologies reflect deeper physical structure than commonly appreciated.
 \end{abstract}
 
-\keywords{Decoherence, Quantum foundations, Open quantum systems, Quantum trajectories, Process tensor, Dynamical irreducibility}
+\keywords{Decoherence, Quantum foundations, Open quantum systems, Quantum trajectories, Process tensor, Dynamical irreducibility, State completeness}
 
 \maketitle
 
@@ -31,7 +31,15 @@ I demonstrate that quantum processes implementing identical unitary operations a
 
 In conventional quantum mechanics, the density matrix $\rho(t)$ is assumed to encode all physically accessible information at time $t$. This implicitly presumes that two systems with identical states are physically indistinguishable, regardless of how they reached those states. However, this assumption has never been rigorously validated for open quantum systems.
 
-Decoherence couples a system to its environment, and this coupling may depend on the system's \emph{trajectory}, not merely its instantaneous state. Recent developments in non-Markovian dynamics and process-tensor formalism~\cite{pollock2018nonmarkovian,milz2021quantum} have highlighted these concerns. This raises a fundamental question: if two processes yield identical final states but traverse different paths through Hilbert space, does this \emph{biographical} difference carry physical content?
+Decoherence couples a system to its environment, and this coupling may depend on the system's \emph{trajectory}, not merely its instantaneous state. Recent developments in non-Markovian dynamics and process-tensor formalism~\cite{pollock2018nonmarkovian,milz2021quantum} have highlighted these concerns.
+This connects to broader debates in quantum foundations concerning the
+ontological status of processes versus states. While the standard formalism
+treats the density matrix as a complete and sufficient description of a
+system at a given time, several foundational approaches suggest that temporal
+structure may carry independent physical content. Our construction provides an
+operationally testable scenario illustrating how trajectory-dependent effects
+can emerge even when instantaneous state descriptions remain identical.
+This raises a fundamental question: if two processes yield identical final states but traverse different paths through Hilbert space, does this \emph{biographical} difference carry physical content?
 
 I address this question by constructing quantum processes (``twins'') such that
 \begin{equation}
@@ -212,7 +220,16 @@ To address initialization dependence, I tested 106 distinct initial conditions:
 
 \subsection{State Incompleteness}
 
-These results demonstrate that the density matrix $\rho(t)$ does not contain all physically relevant information in open-system contexts. The system's history $K$ has measurable consequences not captured by instantaneous states. This challenges the conventional assumption of state completeness and aligns with recent developments in process-tensor formalism~\cite{chiribella2008quantum}.
+These results demonstrate that the density matrix $\rho(t)$ does not contain all physically relevant information in open-system contexts. The system's history $K$ has measurable consequences not captured by instantaneous states.
+However, this conclusion is restricted to the class of decoherence models
+in which environmental coupling depends on dynamical activity, such as the
+phenomenological form $\gamma \propto W_{\text{bio}}$ considered here. While this model is not
+derived from first principles, trajectory-dependent rates arise naturally in
+systems with friction-like dissipation, time-of-flight–dependent dephasing, or
+path-sensitive noise channels. The experimental protocol proposed in the
+Appendix provides a direct route to empirically determining whether such
+effects occur in real physical platforms.
+This challenges the conventional assumption of state completeness and aligns with recent developments in process-tensor formalism~\cite{chiribella2008quantum}.
 
 \subsection{Process Ontology}
 
@@ -226,7 +243,10 @@ The biographical witness $W_{\text{bio}}$ naturally connects to process tensor d
 
 \section{Conclusion}
 
-I have demonstrated that quantum biographical information $K$ is operationally relevant and irreducible to state information $\rho$. Two processes implementing the same unitary with the same final state can diverge measurably under decoherence if their trajectories differ. Through comprehensive validation—mathematical proof, time normalization, physical noise models, multi-qubit scaling, statistical analysis ($p < 10^{-6}$), and robustness across 106 initial conditions—I establish that the trajectory matters fundamentally.
+The results presented here show that, within trajectory-dependent
+decoherence models, quantum biographical information $K$ has operational
+consequences that are not captured by instantaneous state descriptions.
+Two processes implementing the same unitary with the same final state can diverge measurably under decoherence if their trajectories differ. Through comprehensive validation—mathematical proof, time normalization, physical noise models, multi-qubit scaling, statistical analysis ($p < 10^{-6}$), and robustness across 106 initial conditions—I establish that the trajectory matters fundamentally.
 
 \textbf{Testable prediction:} Different gate decompositions yield different decoherence signatures in real quantum hardware.
 
