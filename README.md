@@ -55,14 +55,26 @@ You can reproduce all figures and results presented in the paper by running the 
 
 ---
 
-##  Citation
+## 📄 Preprint & Citation
 
-This repository is citable. If you use this work, please cite it using the `CITATION.cff` or the BibTeX below:
+This repository contains the official implementation of the paper:
+**Biographical Irreducibility in Quantum Mechanics: Path Inequivalence Beyond State Equivalence**
+
+The manuscript is permanently archived and publicly available as a preprint on **Zenodo**:
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17682581.svg)](https://doi.org/10.5281/zenodo.17682581)
+
+### BibTeX
+
+If you use this work or the Q-MSG framework code in your research, please cite it as:
 
 ```bibtex
-@article{rodrigues2025qmsg,
-  title={Biographical Irreducibility in Quantum Mechanics},
-  author={Rodrigues, Anderson Costa},
-  journal={arXiv preprint arXiv:XXXX.XXXXX},
-  year={2025}
+@misc{rodrigues2026biographical,
+  author       = {Rodrigues, Anderson Costa},
+  title        = {Biographical Irreducibility in Quantum Mechanics: Path Inequivalence Beyond State Equivalence},
+  month        = jun,
+  year         = 2026,
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.17682581},
+  url          = {[https://doi.org/10.5281/zenodo.17682581](https://doi.org/10.5281/zenodo.17682581)}
 }
