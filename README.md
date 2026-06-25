@@ -119,8 +119,8 @@ against `code/run_final.log`.
              Path Inequivalence Beyond State Equivalence},
   author  = {Rodrigues, Anderson Costa},
   year    = {2025},
-  doi     = {10.5281/zenodo.17682581},
-  url     = {https://zenodo.org/records/17682581},
+  doi     = {10.5281/zenodo.org/records/20857554},
+  url     = {https://zenodo.org/records/20857554},
   note    = {Zenodo preprint. Code: https://github.com/AndersonCRodrigues/qmsg-biographical-irreducibility}
 }
 ```
