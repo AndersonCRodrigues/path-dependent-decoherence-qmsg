@@ -18,6 +18,9 @@ from scipy.linalg import expm
 from scipy.stats import norm
 import matplotlib.pyplot as plt
 
+# Fixed seed for reproducibility — canonical values reported in paper
+np.random.seed(2025)
+
 # --- Constants ---
 SIGMA_X = np.array([[0, 1], [1, 0]], dtype=complex)
 SIGMA_Y = np.array([[0, -1j], [1j, 0]], dtype=complex)
