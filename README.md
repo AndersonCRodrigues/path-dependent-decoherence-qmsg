@@ -1,6 +1,6 @@
 # Path-Dependent Decoherence in Open Quantum Systems
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20895894.svg)](https://doi.org/10.5281/zenodo.20895894)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20896384.svg)](https://doi.org/10.5281/zenodo.20896384)
 
 > *"Whoever seeks the answer loses the question; whoever guards the enigma finds both."*
 
@@ -121,8 +121,8 @@ against `code/run_final.log`.
              Operational Signatures Beyond Instantaneous State Descriptions},
   author  = {Rodrigues, Anderson Costa},
   year    = {2025},
-  doi     = {10.5281/zenodo.20895894},
-  url     = {https://zenodo.org/records/20895894},
+  doi     = {10.5281/zenodo.20896384},
+  url     = {https://zenodo.org/records/20896384},
   note    = {Zenodo preprint. Code: https://github.com/AndersonCRodrigues/path-dependent-decoherence-qmsg}
 }
 ```
