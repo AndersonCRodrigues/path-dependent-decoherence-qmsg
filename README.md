@@ -1,14 +1,14 @@
-# Q-MSG: Biographical Irreducibility in Quantum Mechanics
+# Path-Dependent Decoherence in Open Quantum Systems
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17682581.svg)](https://doi.org/10.5281/zenodo.17682581)
 
 > *"Whoever seeks the answer loses the question; whoever guards the enigma finds both."*
 
-This repository contains the complete scientific validation for the
-**biographical irreducibility** thesis: within trajectory-dependent
-decoherence models, a quantum system's dynamical trajectory $K$ has
-operational consequences that are not captured by its instantaneous
-state $\rho$.
+This repository contains the complete scientific validation for
+**path-dependent decoherence in open quantum systems** — the phenomenon,
+termed here *biographical irreducibility*, whereby a quantum system's
+dynamical trajectory $K$ has operational consequences not captured by
+its instantaneous state $\rho$.
 
 We construct and validate via simulation that two quantum processes
 ("twins") with identical unitaries ($U_A = U_B$) and identical final
@@ -18,9 +18,11 @@ and environmental coupling depends on dynamical activity
 ($\gamma \propto W_{\mathrm{bio}}$).
 
 > **Scope note:** The decoherence model $\gamma = \alpha \cdot W_{\mathrm{bio}}$
-> is phenomenological. The results demonstrate internal consistency and
-> motivate experimental tests; microscopic derivation from a system-bath
-> Hamiltonian is left as future work.
+> is phenomenological. A companion paper (Q-MSG framework, in preparation)
+> provides a microscopic derivation via Nakajima-Zwanzig formalism, showing
+> that $\gamma \approx \alpha_{\mathrm{eff}} \cdot W_{\mathrm{bio}}$ emerges
+> as a leading-order approximation in the weak-coupling regime. The results
+> here demonstrate internal consistency and motivate experimental tests.
 
 ---
 
@@ -115,12 +117,12 @@ against `code/run_final.log`.
 
 ```bibtex
 @article{rodrigues2025biographical,
-  title   = {Biographical Irreducibility in Quantum Mechanics:
-             Path Inequivalence Beyond State Equivalence},
+  title   = {Path-Dependent Decoherence in Open Quantum Systems:
+             Operational Signatures Beyond Instantaneous State Descriptions},
   author  = {Rodrigues, Anderson Costa},
   year    = {2025},
-  doi     = {10.5281/zenodo.org/records/20857554},
-  url     = {https://zenodo.org/records/20857554},
+  doi     = {10.5281/zenodo.17682581},
+  url     = {https://zenodo.org/records/17682581},
   note    = {Zenodo preprint. Code: https://github.com/AndersonCRodrigues/qmsg-biographical-irreducibility}
 }
 ```
