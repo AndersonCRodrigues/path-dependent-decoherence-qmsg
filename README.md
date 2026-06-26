@@ -58,8 +58,8 @@ All values are reproducible by running the scripts below (fixed seed = 2025).
 
 ```bash
 # 1. Clone
-git clone https://github.com/AndersonCRodrigues/qmsg-biographical-irreducibility.git
-cd qmsg-biographical-irreducibility
+git clone https://github.com/AndersonCRodrigues/path-dependent-decoherence-qmsg.git
+cd path-dependent-decoherence-qmsg
 
 # 2. Install dependencies
 pip install -r requirements.txt
@@ -123,7 +123,7 @@ against `code/run_final.log`.
   year    = {2025},
   doi     = {10.5281/zenodo.17682581},
   url     = {https://zenodo.org/records/17682581},
-  note    = {Zenodo preprint. Code: https://github.com/AndersonCRodrigues/qmsg-biographical-irreducibility}
+  note    = {Zenodo preprint. Code: https://github.com/AndersonCRodrigues/path-dependent-decoherence-qmsg}
 }
 ```
 
