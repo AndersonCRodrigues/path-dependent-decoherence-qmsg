@@ -4,41 +4,41 @@ authors:
   - family-names: "Rodrigues"
     given-names: "Anderson Costa"
     orcid: "https://orcid.org/0009-0001-2084-2593"
-title: "Q-MSG: Biographical Irreducibility in Quantum Mechanics"
-version: 1.0.0
-doi: 10.5281/zenodo.17682581
-date-released: 2025-11-22
-url: "https://github.com/AndersonCRodrigues/qmsg-biographical-irreducibility"
-repository-code: "https://github.com/AndersonCRodrigues/qmsg-biographical-irreducibility"
+title: "Path-Dependent Decoherence in Open Quantum Systems: Operational Signatures Beyond Instantaneous State Descriptions"
+version: 4.0.0
+doi: 10.5281/zenodo.20896384
+date-released: 2026-06-26
+url: "https://github.com/AndersonCRodrigues/path-dependent-decoherence-qmsg"
+repository-code: "https://github.com/AndersonCRodrigues/path-dependent-decoherence-qmsg"
 keywords:
   - quantum mechanics
-  - quantum foundations
+  - open quantum systems
   - decoherence
-  - process tensor
-  - biographical information
+  - process tensors
+  - quantum information
+  - dynamical irreducibility
 license: MIT
 abstract: >-
-  I demonstrate that quantum systems implementing the same unitary
-  operation and sharing identical final states can nonetheless
-  exhibit measurably distinct behavior under environmental decoherence.
-  This arises when the underlying dynamical trajectories---the
-  "biographies" of the processes---differ geometrically in state space
-  even though the endpoints coincide. I construct explicit "quantum
-  twins" (UA=UB, ρA=ρB, KA≠KB) that, under decoherence, diverge
-  (ρ'A≠ρ'B). Through mathematical analysis, time-normalization,
-  multiple physical noise models, multi-qubit extensions, and
-  bootstrap statistics (z ≈ 21.65σ), I show that biographical
-  information is physically relevant and irreducible to
-  instantaneous state descriptions.
-
+  This work shows that quantum processes implementing identical unitary
+  operations and sharing identical final states can exhibit measurably
+  distinct behavior under environmental decoherence when their dynamical
+  trajectories differ geometrically --- a phenomenon termed here
+  biographical irreducibility. Explicit "quantum twins" are constructed
+  satisfying (1) UA=UB, (2) rhoA=rhoB, (3) distinct trajectories
+  KA != KB, yet (4) rho'A != rho'B after decoherence. Comprehensive
+  validation is performed, including time-normalized evolution, multiple
+  physical noise models, multi-qubit extensions, and bootstrap statistics
+  (Frobenius-norm difference ~ 0.244, 95% CI [0.216, 0.272], z = 21.1
+  sigma). An experimental protocol for photonic implementation is
+  proposed.
 preferred-citation:
   type: preprint
   authors:
-  - family-names: "Rodrigues"
-    given-names: "Anderson Costa"
-    orcid: "https://orcid.org/0009-0001-2084-2593"
-  doi: "10.5281/zenodo.17682581"
-  title: "Biographical Irreducibility in Quantum Mechanics: Path Inequivalence Beyond State Equivalence"
+    - family-names: "Rodrigues"
+      given-names: "Anderson Costa"
+      orcid: "https://orcid.org/0009-0001-2084-2593"
+  doi: "10.5281/zenodo.20896384"
+  title: "Path-Dependent Decoherence in Open Quantum Systems: Operational Signatures Beyond Instantaneous State Descriptions"
   publisher: "Zenodo"
-  year: 2025
-  url: "https://doi.org/10.5281/zenodo.17682581"
+  year: 2026
+  url: "https://doi.org/10.5281/zenodo.20896384"
